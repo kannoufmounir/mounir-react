@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poppins:wght@200&family=Raleway:wght@200&display=swap');
+
+
+/* <!-- ----------------navi BARE--------------------------------------------------- --> */
+
+
+
+* {
+ 
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  list-style-type: none;
+  text-decoration: none;
+ 
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.appA li {
+  margin: 0%;
+  height: 0%;
+  padding-right: 0;
+  list-style-type: none;
+  text-decoration: none;
+
+}
+
+.app {
+
+  background-color: rgb(227, 227, 227);
+  padding: 2px 12px;
+
+  list-style-type: none;
+  text-decoration: none;
+
+}
+
+.app ul {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  color: rgb(10, 10, 10);
+
+  list-style-type: none;
+  text-decoration: none;
+
+
+
+}
+
+/* header */
+
+.OPM{
+ 
+  background-color: black;
+  margin: 0;
+  text-align: center;
+  position: relative;
+
+}
+
+.OPM ul{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  padding: 15px ;
+}
+
+.OPM li{
+  color: aliceblue;
+  padding: 10px ;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  
+
+}
+.OPM li:hover{
+  border-bottom: 1px solid rgb(238, 238, 238) ;
+  color: rgb(254, 254, 254);
+  padding: 10px ;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  
+
+}
+.logoRO{
+  margin-right: 30px;
+    font-weight: 900;
+  }
+  .loginKJ{
+  margin-left: 30px;
+    font-weight: 900;
+  }
+  
+
+
+
+/* Bienvune acceuil */
+
+.Infoheade{
+ margin-top: -1%;
+ background-color: rgb(43, 43, 43);
+  padding: 18px ;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  color: rgb(240, 240, 240);
+  border-bottom: 1px solid rgb(217, 217, 217) ;
+
+}
+
+
+
+/* image Acceuil 1 */
+.imageAceuil{
+ background: url(/src/image/image1.jpg) no-repeat center center/cover;
+ width: auto;
+ height: 800px;
+}
