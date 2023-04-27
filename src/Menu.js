@@ -12,11 +12,11 @@ function Menu(props) {
         <div className='OPM'>
 
             <ul >
-                <NavLink className="nav-link" to='/'>
+                <NavLink className="nav-link" to='/Accueil'>
                     <li className='logoRO' >MK </li>
                 </NavLink>
 
-                <NavLink className="nav-link  " to='/'>
+                <NavLink className="nav-link  " to='/Accueil'>
                     <li>Accueil</li>
                 </NavLink>
 

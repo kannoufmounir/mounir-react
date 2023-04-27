@@ -20,7 +20,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Accueil />} />
+        <Route path="/Accueil" element={<Accueil />} />
         <Route path="/bootsatrap" element={<Bootsatrap />} />
         <Route path="/MAP" element={<MAP />} />
         <Route path="/video" element={<Video />} />
