@@ -8,68 +8,66 @@ import './Nav.css'
 
 function Menu(props) {
     return (
-      
+
         <div className='OPM'>
-                
-                <ul >
+
+            <ul >
                 <NavLink className="nav-link" to='/'>
-                <li className='logoRO' >MK </li>
+                    <li className='logoRO' >MK </li>
                 </NavLink>
 
-               
-                <NavLink className="nav-link  "   to='/'>
-                <li>Accueil</li>
+                <NavLink className="nav-link  " to='/'>
+                    <li>Accueil</li>
                 </NavLink>
 
-            
-
+                <NavLink className="nav-link " to='/Produit'>
+                    <li>Produit</li>
+                </NavLink>
                 <NavLink className="nav-link " to='/Picker'>
-                <li>Calendrier</li>
+                    <li>Calendrier</li>
                 </NavLink>
 
-                <NavLink className="nav-link "  to='/Service'>
-                <li>Galerie</li>
+
+                <NavLink className="nav-link " to='/bootsatrap'>
+                    <li>Bootsatrap</li>
+                </NavLink>
+                <NavLink className="nav-link " to='/calculatrice'>
+                    <li>Calculator</li>
                 </NavLink>
 
-                <NavLink className="nav-link "  to='/bootsatrap'>
-                <li>Bootsatrap</li>
-                </NavLink>
-                <NavLink className="nav-link "  to='/calculatrice'>
-                <li>Calculator</li>
-                </NavLink>
-               
 
-                <NavLink className="nav-link " to='/inscripation'>
-                <li>Galerie</li>
-                </NavLink>
-                
-                <NavLink className="nav-link " to='/inscripation'>
-                <li>Inscripation</li>
-                </NavLink>
-                
                 <NavLink className="nav-link " to='/MAP'>
-                <li>Meteo</li>
+                    <li>Meteo</li>
                 </NavLink>
-                
-                <NavLink className="nav-link " to='/devis'>
-                <li>DEVIS</li>
-                </NavLink>
-                
-                <NavLink className="nav-link " to='/video'>
-                <li>Video</li>
-                </NavLink>
-                
-                <NavLink className="nav-link "  to='/login'>
-                <li className='loginKJ'>Login</li>
-                </NavLink>
-              
 
-           
+                <NavLink className="nav-link " to='/devise'>
+                    <li>DEVIS</li>
+                </NavLink>
+
+                <NavLink className="nav-link " to='/video'>
+                    <li>Video</li>
+                </NavLink>
+
+
+
+
+
+                <NavLink className="nav-link  " to='/login'>
+                    <li className='loginKJ'>Login</li>
+                </NavLink>
+                <NavLink className="nav-link " to='/inscripation'>
+                    <li className='loginKZ'>Inscripation</li>
+                </NavLink>
+
+
+
+
+
             </ul>
-            
-            </div>
-        
-        
+
+        </div>
+
+
     );
 }
 
